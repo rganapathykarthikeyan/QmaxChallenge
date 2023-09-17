@@ -1,6 +1,6 @@
- #Front End Assignment : React.JS, Material-UI
+ # Front End Assignment : React.JS, Material-UI
  
- #Use case : To design a Simple Post Management Page.
+ # Use case : To design a Simple Post Management Page.
  
 On the first page load, need to call https://jsonplaceholder.typicode.com/postsand take the posts in memory
 Then display each post in a MUI Card.
