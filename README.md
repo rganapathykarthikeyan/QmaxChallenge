@@ -1,3 +1,32 @@
+ #Front End Assignment : React.JS, Material-UI
+ 
+ #Use case : To design a Simple Post Management Page.
+ 
+On the first page load, need to call https://jsonplaceholder.typicode.com/postsand take the posts in memory
+Then display each post in a MUI Card.
+On Clicking a Post, a Dialog box should popup with the Comments
+(use -> https://jsonplaceholder.typicode.com/posts/post_id/comments).
+Each post must have a DeleteButton that delete the post.
+There should be a Search boxon the top of the navbar and it should fuzzy search the posts and display the results below.
+This whole state should be saved Internally on the Browser.
+For example :
+>> If we type ‘hello’ in search box, the below cards should only have items which have ‘hello’ in it.
+>> On Clicking the BROWSER’s REFRESH button or F5 the Page Should Reload and comeback to the same state as of having hello in the search box and with previous ‘hello‘ results.
+ 
+You can Add a Button Refresh State
+>> By clicking on it should clear the local state, get data from the API and display the contents.
+Note:  After the First API Call, no other API calls should be .
+Everything should be done Internally like filtering for search etc., until we click the Refresh State Button
+ 
+Extra :The above is expected to be done minimal from your end, you can also try the below.
+ 
+Promise Queue - After clicking the Delete Button, it should delete the post, You can Queue up DELETE API request on the Local. i.e., The API request should not be sent out. It Should be Queued up.
+
+Like on Clicking Delete on 3 cards the Delete queue will have 3 items. You should show an indicator on the screen to represent how many API calls are queued up ( just a number )
+
+E.g., DELETE QUEUE 3 - This Delete Queue should also be persisted across Refresh - Upon Clicking the Refresh State button The Delete Queue should be Fired and Queue should be Emptied as the Request are Actualized .
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
