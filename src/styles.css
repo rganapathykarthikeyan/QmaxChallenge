@@ -1,0 +1,66 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body{
+    background-color: white;
+  }
+  
+  .Maintitle{
+    color: #02111b;
+  }
+  
+  .title{
+    color: white;
+  }
+  
+  .PostCard{
+    margin: 5px;
+  }
+  
+  .input{
+    color:#02111b
+  }
+  
+  .bordered{
+    border: 1.5px solid red;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .searchBar{
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .searchBtn{
+    border: none;
+    background-color: transparent;
+  }
+  
+  .commentContainer{
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+  }
+  
+  .Btn{
+    border: none;
+    background-color: transparent;
+    width: 90%;
+  }
+  
+  
+  .Cards{
+    width: 100%;
+  }
